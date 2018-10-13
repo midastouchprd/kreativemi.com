@@ -1,0 +1,126 @@
+/*
+font-family: 'Unica One', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Sacramento', cursive;
+*/
+
+nav {
+  position: fixed;
+}
+
+.nav-wrapper {
+  background-color: black;
+  box-shadow: 2px 2px 7px black;
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.parallax-container {
+  height: 80vmin;
+  z-index: -1;
+}
+
+#sidenav-overlay {
+  z-index: -1;
+}
+
+#menu-items a {
+  font-family: "Unica One", cursive;
+}
+
+#black {
+  background-color: black;
+}
+
+.section {
+  font-family: "Unica One", cursive;
+  background-color: #ffe3eb;
+  box-shadow: 2px 2px 7px black;
+  padding: 10vmin;
+}
+
+iframe {
+  box-shadow: 2px 2px 7px black;
+}
+
+blockquote {
+  text-align: center;
+  margin-left: 4vw;
+}
+
+.section-header {
+  text-shadow: 2px 2px 4px #42321d;
+  color: #3066be;
+  text-align: center;
+  font-size: 7vmax;
+}
+
+.section-body {
+  font-family: "Arial";
+  margin-bottom: 7vh;
+  border: solid 2px #3066be;
+  padding: 7vmin;
+  text-align: center;
+  font-size: 5vmin;
+}
+
+span {
+  font-size: 2vw;
+}
+
+.teach-list {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 3vmin;
+}
+
+.teach-list li {
+  list-style-type: none;
+}
+
+.contact {
+  font-size: 10vmin;
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+  align-items: center;
+  widith: 100%;
+}
+
+.teaches {
+  font-size: 4vmin;
+  padding: 2vmin;
+}
+
+.teaches li {
+  font-size: 4vmin;
+}
+
+h5 {
+  font-size: 6vmin;
+  font-weight: bold;
+}
+
+#teach-header {
+  font-size: 5vmax;
+}
+
+#space {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+#email {
+  font-weight: bold;
+  color: #004cc6;
+  text-shadow: 2px 2px 1px black;
+}
+
+#click-here {
+  position: relative;
+  font-size: 3vmax;
+}
