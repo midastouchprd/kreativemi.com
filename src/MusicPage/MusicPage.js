@@ -4,14 +4,13 @@ import "./MusicPage.css";
 class MusicPage extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <div className="parallax-container">
           <div className="parallax">
             <img
               className="responsive-img"
-              src="./images/Hilary-main-photo.jpg"
-              className="header-photo"
-              alt="image"
+              src={require("./images/Hilary-main-photo.jpg")}
+              alt="image0"
             />
           </div>
         </div>
@@ -67,15 +66,14 @@ class MusicPage extends Component {
         <div className="parallax-container">
           <div className="parallax">
             <img
-              className="responsive-img"
-              src="./images/Hilary-Photo-2.jpg"
+              src={require("./images/Hilary-Photo-2.jpg")}
               className="header-photo"
               alt="image3"
             />
           </div>
         </div>
 
-        <div id="video-anchor" className="section" id="black">
+        <div id="video-anchor" className="section">
           <h1 className="section-header center" id="click-here">
             <a
               className="waves-effect waves-light btn-large"
@@ -87,8 +85,7 @@ class MusicPage extends Component {
 
           <div className="center">
             <img
-              className="responsive-img"
-              src="./images/Hilary-Kuhlmey-Photo-5.jpg"
+              src={require("./images/Hilary-Kuhlmey-Photo-5.jpg")}
               alt="hilary"
             />
           </div>
@@ -97,8 +94,7 @@ class MusicPage extends Component {
         <div className="parallax-container">
           <div className="parallax">
             <img
-              className="responsive-img"
-              src="./images/Hilary-Photo-3.jpg"
+              src={require("./images/Hilary-Photo-3.jpg")}
               className="header-photo"
               alt="image1"
             />
@@ -138,8 +134,7 @@ class MusicPage extends Component {
         <div className="parallax-container">
           <div className="parallax">
             <img
-              className="responsive-img"
-              src="./images/Hilary-Photo-4.jpg"
+              src={require("./images/Hilary-Photo-4.jpg")}
               className="header-photo"
               alt="image2"
             />

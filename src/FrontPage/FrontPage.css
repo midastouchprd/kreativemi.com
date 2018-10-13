@@ -1,0 +1,56 @@
+.front-page-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.art,
+.music {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.art {
+  background-color: #cb3283;
+  border-right: 5px white solid;
+}
+.music {
+  background-color: #49b3ab;
+  border-left: 5px white solid;
+}
+.logo {
+  position: absolute;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 30%;
+}
+
+h1 {
+  color: #f9fcfc;
+  font-size: 10vmin;
+}
+
+@media (max-width: 500px) {
+  .front-page-container {
+    flex-direction: column;
+  }
+  .art,
+  .music {
+    height: 50vh;
+    width: 100vw;
+    border: none;
+  }
+}
