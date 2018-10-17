@@ -5,14 +5,12 @@ class MusicPage extends Component {
   render() {
     return (
       <div>
-        <div className="parallax-container">
-          <div className="parallax">
-            <img
-              className="responsive-img"
-              src={require("./images/Hilary-main-photo.jpg")}
-              alt="image0"
-            />
-          </div>
+        <div className="parallax">
+          <img
+            className="responsive-img"
+            src={require("../images/Hilary-main-photo.jpg")}
+            alt="image0"
+          />
         </div>
 
         <div id="about-anchor" className="section">
@@ -63,14 +61,12 @@ class MusicPage extends Component {
           </div>
         </div>
 
-        <div className="parallax-container">
-          <div className="parallax">
-            <img
-              src={require("./images/Hilary-Photo-2.jpg")}
-              className="header-photo"
-              alt="image3"
-            />
-          </div>
+        <div className="parallax">
+          <img
+            src={require("../images/Hilary-Photo-2.jpg")}
+            className="header-photo"
+            alt="image3"
+          />
         </div>
 
         <div id="video-anchor" className="section">
@@ -85,20 +81,14 @@ class MusicPage extends Component {
 
           <div className="center">
             <img
-              src={require("./images/Hilary-Kuhlmey-Photo-5.jpg")}
+              src={require("../images/Hilary-Kuhlmey-Photo-5.jpg")}
               alt="hilary"
             />
           </div>
         </div>
 
-        <div className="parallax-container">
-          <div className="parallax">
-            <img
-              src={require("./images/Hilary-Photo-3.jpg")}
-              className="header-photo"
-              alt="image1"
-            />
-          </div>
+        <div className="parallax">
+          <img src={require("../images/Hilary-Photo-3.jpg")} alt="image1" />
         </div>
 
         <div id="prices-anchor" className="section">
@@ -134,7 +124,7 @@ class MusicPage extends Component {
         <div className="parallax-container">
           <div className="parallax">
             <img
-              src={require("./images/Hilary-Photo-4.jpg")}
+              src={require("../images/Hilary-Photo-4.jpg")}
               className="header-photo"
               alt="image2"
             />

@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./FrontPage.css";
+import { withRouter } from "react-router";
 
-export default class FrontPage extends Component {
+class FrontPage extends Component {
   chooseSide = side => {
-    console.log(side);
+    this.props.history.push(`/${side}`);
   };
 
   render() {
@@ -15,13 +16,15 @@ export default class FrontPage extends Component {
             alt="km-bkg"
           />
         </div>
-        <div onClick={this.chooseSide("art")} className="art">
+        <div onClick={() => this.chooseSide("art")} className="art">
           <h1>ART</h1>
         </div>
-        <div onClick={this.chooseSide("music")} className="music">
+        <div onClick={() => this.chooseSide("music")} className="music">
           <h1>MUSIC</h1>
         </div>
       </div>
     );
   }
 }
+
+export default withRouter(FrontPage);

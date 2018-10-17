@@ -15,9 +15,9 @@ nav {
   font-family: "Nothing You Could Do", cursive;
 }
 
-.parallax-container {
-  height: 80vmin;
-  z-index: -1;
+.parallax > img {
+  max-width: 100vw;
+  min-width: 100vw;
 }
 
 #sidenav-overlay {
@@ -36,7 +36,12 @@ nav {
   font-family: "Unica One", cursive;
   background-color: #ffe3eb;
   box-shadow: 2px 2px 7px black;
-  padding: 10vmin;
+  padding: 64px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 iframe {
@@ -59,9 +64,9 @@ blockquote {
   font-family: "Arial";
   margin-bottom: 7vh;
   border: solid 2px #3066be;
-  padding: 7vmin;
+  padding: 64px;
   text-align: center;
-  font-size: 5vmin;
+  font-size: 24px;
 }
 
 span {
@@ -88,7 +93,7 @@ span {
 
 .center img {
   align-items: center;
-  widith: 100%;
+  width: 100%;
 }
 
 .teaches {
