@@ -9,13 +9,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
+        <div>UNDER CONSTRUCTION</div>
+        {/* <BrowserRouter>
           <Switch>
             <Route exact path={`/`} component={FrontPage} />
             <Route exact path={`/music`} component={MusicPage} />
             <Route exact path={`/art`} component={ArtPage} />
           </Switch>
-        </BrowserRouter>
+        </BrowserRouter> */}
       </div>
     );
   }
